@@ -8,7 +8,7 @@ export default defineManifest({
   background: {
     service_worker: "src/background/main.ts",
   },
-  permissions: ["sidePanel", "tabs"],
+  permissions: ["sidePanel", "tabs", "storage"],
   icons: {
     48: "public/logo.png",
   },
